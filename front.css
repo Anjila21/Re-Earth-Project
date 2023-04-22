@@ -13,7 +13,7 @@ section
     display: flex; 
     flex-direction: column; 
     justify-content: flex-start; 
-    background: url(green.jfif); 
+    background: url(cover.jpg); 
     height:100vh; 
     background-size: cover; 
     background-position: center; 
@@ -68,6 +68,7 @@ header .nav a:hover {
     font-size: 20px; 
     font-weight: 500; 
     margin-bottom: 40px; 
+    color: #fff;
 } 
 .content .info-btn 
 { 
@@ -100,7 +101,7 @@ header .nav a:hover {
 } 
 .media-icon a{ 
     position: relative; 
-    color: #111; 
+    color:white; 
     font-size: 25px; 
     transition: 0.3s; 
     transition-property: transform; 
