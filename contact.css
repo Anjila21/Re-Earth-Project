@@ -1,12 +1,16 @@
+:root{
+    --background: #efefef;
+
+}
 *{
     margin:0;
     padding:0;
 }
 body{
-    background-color: #efefef;
+    background-color: var(--background);
     font-family: sans-serif;
 }
-
+/* 
 .contact-box
 {
     width:500px;
@@ -46,4 +50,17 @@ form
     padding:10px;
     background-color: green;
     font-size: 12px;
+} */
+
+.contact2{
+    height: 40vh;
+    width: 100vw;
+    background-color: red;
+}
+ul{
+    display: flex;
+    justify-content: end;
+}
+li{
+    list-style: none;
 }
