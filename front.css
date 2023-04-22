@@ -113,3 +113,17 @@ header .nav a:hover {
 .media-icon a:hover { 
     transform: scale(1.5); 
 }
+.content
+{
+    display:flex;
+    
+    
+}
+.info
+{
+    width: 50vw;
+}
+.side-icon img{
+    height: 25rem;
+    
+}
