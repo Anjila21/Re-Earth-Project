@@ -1,119 +1,114 @@
-*
-{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family:"Poppins";
-}
-section
-{
-    position:relative;
-    width: 100%;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-image: url("/Images/mainbanner-dark.jpg");
-    height:100vh;
-    background-size: cover;
-    background-position: center;
-
-}
-header{
-     position: relative;
-     top:0;
-     width: 100%;
-     padding:30px 100px;
-     display:flex;
-     justify-content: space-between;
-     align-items:center
-}
-header .nav a{
-color:white;
-/* background-color:greenyellow; */
-text-decoration: none;
-letter-spacing: 1px;
-padding: 8px 15px;
-border-radius: 15px;
-border: 2px solid greenyellow;
-transition: 0.3s;
-transition-property: background;
-text-shadow: 2px 2px 4px rgba(2, 2, 2, 0.6);
-}
-header .nav a:not(:last-child)
-{
-    margin-right: 30px;
-}
-header .nav a:hover {
-    background: greenyellow;
-    color: #111;
-}
-header img{
-    height: 10rem;
-    width:6rem;
-}
-.content{
-    max-width: 650px;
-    margin:60px 100px;
-}
-.content h2{        
-    color: greenyellow;
-    font-size: 150px;
-    text-transform: uppercase;
-    font-weight:800;
-    letter-spacing: 2px;
-    line-height: 60px;
-    margin-bottom: 30px;
-    font-family: "Oswald";
-    text-shadow: 4px 4px 4px rgba(2, 2, 2, 0.6);
-}
-.content p{
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: "Oswald";
-    font-size: 50px;
-    font-weight: 500;
-    margin-bottom: 40px;
-    text-shadow: 4px 4px 4px rgba(2, 2, 2, 0.6);
-}
-.content button
-{
-    height: 60px;
-    width: 200px;
-    font-size: 20px;
-    color: black;
-    background-color: greenyellow;
-    text-decoration: none;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    border-radius: 15px;
-    transition: 0.3s;
-    transition-property: none;
-    text-shadow: 4px 4px 4px rgba(2, 2, 2, 0.6);
-    cursor: pointer;
-    position: relative;
-    left: 18rem;
-}
-.media-icon
-{
-    display: flex;
-}
-
-.media-icon a{
-    position: relative;
-    top: 15rem;
-    left: 97rem;
-    /* color: #111; */
-    color: greenyellow;
-    font-size: 35px;
-    transition: 0.3s;
-    transition-property: transform;
-}
-.media-icon a:not(:last-child)
-{
-    margin-right:50px;
-}
-.media-icon a:hover {
-    transform: scale(1.5);
+* 
+{ 
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box; 
+    font-family:serif; 
+} 
+section 
+{ 
+    position:relative; 
+    width: 100%; 
+    min-height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    background: url(green.jfif); 
+    height:100vh; 
+    background-size: cover; 
+    background-position: center; 
+ 
+} 
+header{ 
+     position: relative; 
+     top:0; 
+     width: 100%; 
+     padding:30px 100px; 
+     display:flex; 
+     justify-content: space-between; 
+     align-items:center 
+} 
+header .nav a{ 
+color:black; 
+background-color:greenyellow; 
+text-decoration: none; 
+letter-spacing: 1px; 
+padding: 8px 15px; 
+border-radius: 20px; 
+transition: 0.3s; 
+transition-property: background; 
+} 
+header .nav a:not(:last-child) 
+{ 
+    margin-right: 30px; 
+} 
+ 
+header .nav a:hover { 
+    background: #fff; 
+} 
+.content{ 
+    max-width: 650px; 
+    margin:60px 100px; 
+} 
+.content .info h2{ 
+    color: greenyellow; 
+    font-size: 55px; 
+    text-transform: uppercase; 
+    font-weight:800; 
+    letter-spacing: 2px; 
+    line-height: 60px; 
+    margin-bottom: 30px; 
+} 
+.content .info h2 span{ 
+    color: white; 
+    font-size: 50px; 
+    font-weight: 600; 
+} 
+.content .info p{ 
+    font-size: 20px; 
+    font-weight: 500; 
+    margin-bottom: 40px; 
+} 
+.content .info-btn 
+{ 
+    color: #fff; 
+    background-color: greenyellow; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-weight: 700; 
+    letter-spacing: 2px; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: 0.3s; 
+    transition-property: none; 
+} 
+.media-icon 
+{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin:auto; 
+} 
+.content .info-btn 
+{ 
+    color: #fff; 
+    background-color: greenyellow; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-weight: 700; 
+    letter-spacing: 2px; 
+} 
+.media-icon a{ 
+    position: relative; 
+    color: #111; 
+    font-size: 25px; 
+    transition: 0.3s; 
+    transition-property: transform; 
+} 
+.media-icon a:not(:last-child) 
+{ 
+    margin-right:60px; 
+} 
+.media-icon a:hover { 
+    transform: scale(1.5); 
 }
