@@ -32,7 +32,7 @@ cursor: pointer;
 border-radius: 3px;
 }
 .cart-nav .icon{
-    color: #51cf48;
+    color: #054005;
 }
 .cart-nav .icon i{
     font-size: 20px;
@@ -44,11 +44,11 @@ border-radius: 3px;
    font-size: 15px; 
    height: 23px;
    width: 23px;
-   color: #51cf48;
+   color: #0a4306;
    border-radius: 50%;
    text-align: center;
    line-height: 22px;
-   background:#6ec467;
+   background:#0a4505;
    border:1px solid #3a7344b3 ;
 }
 .wrapper .card{
