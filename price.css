@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.4s cubic-bezier(0,1.57,.67,1.18);
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #ccc;
+}
+.box{
+   flex: 1 1 300px; 
+   background: #fff;
+   border: 1px solid range(0,0,0,.3);
+   position: relative;
+   overflow: hidden;
+   margin: 20px;
+}
+.box.image{
+    padding: 10px;
+    background: #eee;
+    text-align: center;
+}
+.box.image img{
+height: 200px;
+width: 250px;
+object-fit: cover;
+filter: drop-shadow(0 3px 5px rgba(0,0,0,.7));
+}
+.box.info.tiltle{
+    padding: 10px;
+color: #666;
+font-size: 20px;
+}
+.box.info.subInf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.box.info.sunInfo.price{
+    color: black;
+    font-size: 20px;
+}
+.box.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 223px;
+    width: 100%;
+    background: rgba(57, 13, 13, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: none;
+    transform: scale(0);
+}
+.bo:hover.overlay{
+    transform: scale(1);
+}
+
+.box.overlay a{
+    color: rgb(213, 228, 14);
+    background: #41bf5a;
+    margin: 10px;
+    padding: 13px 15px;
+    transform: translateY(-150px);
+    transition-property: trasform;
+    transition-delay: calc(.1s* var(--i));
+}
+.box.overplay a:hover{
+    color:orange;
+}
+
+.box:hover .overlay a{
+    transform: translateY(0px);
+
+}
