@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+header{
+    height: 10vh;
+    width: 100vw;
+    padding:30px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: var(--background);
+}
+header .nav a{
+color:black;
+background-color:greenyellow;
+text-decoration: none;
+letter-spacing: 1px;
+padding: 8px 15px;
+border-radius: 20px;
+transition: 0.3s;
+transition-property: background;
+}
+header .nav a:not(:last-child)
+{
+   margin-right: 30px;
+}
+
+header .nav a:hover {
+   background: #fff;
+}
+header img{
+    height: 7rem;
+    width:4rem;
+}
