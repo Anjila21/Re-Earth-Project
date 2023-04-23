@@ -337,7 +337,7 @@ footer{
 .media-icon 
 { 
     height: 5%;
-    width: 30%;
+    width: 50%;
     display: flex; 
     justify-content: space-around; 
     align-self: center; 
@@ -347,6 +347,10 @@ footer{
     font-size: 25px; 
     transition: 0.3s; 
 } 
+.media-icon h1{ 
+    font-weight: 500;
+    font-size: 25px;
+} 
 .media-icon a:hover { 
     transform: scale(1.5); 
 }
@@ -354,15 +358,48 @@ footer{
     height: 55%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
-.one{
-    width: 45%;
+.servicesoffered{
+    display:grid;
+    place-content: center;
+    height: 100%;
+    width: 50%;
 }
-.two,
+.servicesoffered h4,
+.company h4,
+.three h4{
+    font-size: 24px;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+}
+.company{
+    display:grid;
+    place-content: center;
+    height: 100%;
+    width: 50%;
+    padding-left: 35px;
+}
+.one{
+    width: 30%;
+    display: grid;
+    place-items: center;
+}
+.one p{
+    width: 80%;
+}
+.two{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 2px solid rgb(167, 167, 167);
+    border-left: 2px solid rgb(167, 167, 167);
+}
 .three{
-    width: 25%;
+    width: 20%;
+    display: grid;
+    place-items: center;
 }
 .three p{
     font-size: 20px;
