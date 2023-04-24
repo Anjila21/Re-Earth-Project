@@ -15,7 +15,22 @@ body{
     background-color: var(--background);
     font-family: "Poppins";
 }
-.heading{
+.one {
+
+    position:relative; 
+    width: 100%; 
+    height:200px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    background: url("bottles.avif"); 
+    height:100vh; 
+    background-size: cover; 
+    background-position: center; 
+
+}
+
+.hello{
     width:90%;
     display:flex;
     justify-content:center;
@@ -25,14 +40,15 @@ body{
     margin:20px auto;
 
 }
-.heading{
+.hello{
     font-size:50px;
-    color:#000;
-    margin-bottom:25px;
+    color: #026405;
+    margin-top: 350px;
+    margin-bottom:100px;
     position:relative;
 
 }
-.heading h1::after{
+.hello h1::after{
     content:"";
     position :absolute;
     width:1000px;
@@ -41,9 +57,10 @@ body{
     margin:0auto;
     background-color:#4caf50;
 }
-.heading p{
-    font-size: 18px;
-    color:#666;
+.hello p{
+    font-size: 25px;
+    color:#0f0000;
+    margin-top: 20px;
     margin-bottom:35px;
 }
 .container{
@@ -74,15 +91,35 @@ body{
 
 }
 .about-content h2{
-    font-size:23px;
+    font-size:35px;
     margin-bottom:15px;
-    color:#333;
+    color:#01532c;
 }
 .about-content p{
-    font-size:18px;
+    font-size:25px;
     line-height:1.5;
-    color:#666;
+    color:#350144;
 
+}
+.about-photo img{
+    width:600px;
+    height:600px;
+    
+}
+.about-segregate h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #577e6b;
+}
+.about-segregate p{
+    font-size: 25px;
+    line-height: 1.5;
+    color: #0e1c0d;
+}
+.about-segregate list{
+    font-size: 25px;
+    line-height: 1.5;
+    color: #0e1c0d;
 }
 .about-segregate .read-more{
     display:inline-block;
@@ -143,6 +180,7 @@ header{
     justify-content: space-around;
     align-items:center;
     background-color: var(--navbar);
+    
 }
 .nav{
     width: 100%;
