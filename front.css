@@ -112,12 +112,19 @@ header{
 .logo{
     height: 95%;
     width: 40%;
+  display: flex;
+  justify-content:start ;
+  align-items: center;
 }
 .logo img{
-    height: 100%;
-    width:40%;
-
+    height:75%;
+    width:11%;
+  margin-left: 2rem;
+  margin-right: 0.3rem;
 } 
+.logo p{
+    color: var(--white);
+}
 .bar{
     width: 45%;
     height: 100%;

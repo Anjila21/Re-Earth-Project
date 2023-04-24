@@ -32,11 +32,15 @@ header{
 .logo{
   height: 95%;
   width: 40%;
+display: flex;
+justify-content:start ;
+align-items: center;
 }
 .logo img{
-  height: 100%;
-  width:40%;
-
+  height:75%;
+  width:11%;
+margin-left: 2rem;
+margin-right: 0.3rem;
 } 
 .bar{
   width: 45%;
