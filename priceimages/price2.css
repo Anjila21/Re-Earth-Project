@@ -130,3 +130,7 @@ button:last-chil:hover{
 border-color: #51cf48;
 background: #51cf48;
 }
+img{
+    height: 300px;
+    width: 400px;
+}
