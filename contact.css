@@ -1,6 +1,10 @@
 :root{
-    --background: rgba(0, 0, 0, 0);
-
+    --navbar: rgba(0, 0, 0, 0);
+    --background:rgb(212, 212, 212);
+    --white:white;
+    --black:black;
+    --button-color:#adff2f;
+    --radiusborder: 20px;
 }
 *{
     margin:0;
@@ -108,32 +112,86 @@ footer{
 header{
     height: 10vh;
     width: 100vw;
-    padding:30px 100px;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
-    background-color: var(--background);
+    background-color: var(--navbar);
+}
+.nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    height: 95%;
+    width: 40%;
+  display: flex;
+  justify-content:start ;
+  align-items: center;
+}
+.logo img{
+    height:75%;
+    width:11%;
+  margin-left: 2rem;
+  margin-right: 0.3rem;
+} 
+.bar{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-btn{
+    height:2rem;
+    width: 7rem;
+    font-size: 15px;
+    font-family: "Poppins";
+    outline: none;
+    background-color:var(--button-color);
+    text-decoration: none;
+    border: none;
+    border-radius: var(--radiusborder);
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.navbar-btn:hover{
+    background: var(--white);
+}
+.bar a{
+        text-decoration: none;
+            color:var(--black);
+}
+.login-btn
+{ 
+    height:2rem;
+    width: 10rem;
+    font-size: 15px;
+    font-family: "Poppins";
+    outline: none;
+    background-color:var(--button-color);
+    text-decoration: none;
+    border: none;
+    border-radius: var(--radiusborder);
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+} 
+.login-btn:hover{
+    background: var(--white);
+    transform: scale(1.15);
+}
+.login{
+    height: 100%;
+    width: 15%;
+    display: grid;
+    place-items: center;
+}
+.login a{
+    text-decoration: none;
+        color: var(--white);
 
-}
-header .nav a{
-color:black;
-background-color:greenyellow;
-text-decoration: none;
-letter-spacing: 1px;
-padding: 8px 15px;
-border-radius: 20px;
-transition: 0.3s;
-transition-property: background;
-}
-header .nav a:not(:last-child)
-{
-   margin-right: 30px;
-}
-
-header .nav a:hover {
-   background: #fff;
-}
-header img{
-    height: 7rem;
-    width:4rem;
 }
