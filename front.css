@@ -185,9 +185,9 @@ header img{
     align-items: center;
     margin: auto;
 }
-.ediblespoon,
-.newsletter,
-.awareness{
+.compost,
+.shredding,
+.ewaste{
     height:80%;
     width: 30%;
     border: 5px solid var(--button-color);
@@ -196,17 +196,24 @@ header img{
      transition: 0.5s;
     cursor: pointer;
 }
-.ediblespoon{
-    background-image: url("Images/ediblespoon.jpg");
-    background-size: cover;
+.compost{
+   /** background-image: url("Images/ediblespoon.jpg"); 
+   background-size: cover; **/
+   background-color: rgb(132, 224, 132);
+   display: grid;
+   place-items: center;
+   
 }
-.newsletter{
-    background-image: url("Images/ediblespoon.jpg");
-    background-size: cover;
+.shredding{
+   /** background-image: url("Images/ediblespoon.jpg"); 
+    background-size: cover; **/
+   background-color: rgb(166, 158, 202);
+   display: grid;
+   place-items: center;
 
 }
-.awareness{
-    background-color: blueviolet;
+.ewaste{
+    background-color: rgb(181, 194, 133);
     display: grid;
     place-items: center;
 
@@ -282,7 +289,7 @@ transform:scale(1.15);
     color: var(--black);
     text-align: center;
 }
-.people{
+/**.people{
     width: 100%;
     height: 100%;
     display: flex;
@@ -328,6 +335,7 @@ transform:scale(1.15);
    font-size: 20px;
    font-weight: 500;
 }
+**/
 footer{
     width: 100vw;
     height: 100vh;
@@ -347,6 +355,9 @@ footer{
     font-size: 25px; 
     transition: 0.3s; 
 } 
+
+
+
 .media-icon h1{ 
     font-weight: 500;
     font-size: 25px;
@@ -372,7 +383,7 @@ footer{
 .three h4{
     font-size: 24px;
     margin-bottom: 2.5rem;
-    font-weight: 400;
+    font-weight: 400; 
 }
 .company{
     display:grid;
