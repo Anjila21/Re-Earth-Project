@@ -16,14 +16,13 @@ body{
     font-family: "Poppins";
 }
 .one {
-
     position:relative; 
     width: 100%; 
     height:200px; 
     display: flex; 
     flex-direction: column; 
     justify-content: flex-start; 
-    background: url("bottles.avif"); 
+    background-image: url("/Images/learn-images/bottles.avif"); 
     height:100vh; 
     background-size: cover; 
     background-position: center; 

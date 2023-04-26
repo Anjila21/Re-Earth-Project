@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -69,74 +69,29 @@
     referrerpolicy="no-referrer-when-downgrade"
   ></iframe>
   </div>
-
-      </div>
       <div class="contact-box">
         <h2 style="text-align: center">SEND US A NOTE</h2>
-        <form action="#" onsubmit="return Validate()>
-          <div>
-          <input type="text" class="input-field" id="name" placeholder="YOUR NAME" />
-          <span id="uname" class="error"></span>
+        <form action="#" onsubmit="return Validate()">
+          <input type="text" class="input-field" placeholder="YOUR NAME" required>
+          <span id="uname" class="error" color="red"></span>
+        <div>
+          <input type="text" class="input-field" id="email" placeholder="EMAIL" required>
+          <span id="ename" class="error" color="red"></span>
         </div>
         <div>
-          <input type="text" class="input-field" id="email" placeholder="EMAIL" />
-          <span id="ename" class="error"></span>
-        </div>
-        <div>
-          <input type="text" class="input-field" id="phone" placeholder="PHONE NUMBER" />
-          <span id="pname" class="error"></span>
+          <input type="text" class="input-field" id="phone" placeholder="PHONE NUMBER" required>
+          <span id="pname" class="error"color="red"></span>
         </div>  
           <textarea
             type="text"
             class="input-field textarea-field"
             placeholder="MESSAGE FOR US"
-          ></textarea>
-          <button type="button" class="btn">Send Message</button>
-     
+            required></textarea>
+          <input type="submit" value="Send Message" class="btn">
+        </div>
         </form>
            </div>
-      
-
-      <script type="text/javascript">
-        let name= document.getElementById("name");
-        let email= document.getElementById("email");
-        let pass= document.getElementById("phone");
-        let flag = 1;
-        function Validate()
-        {
-          if (name.value == "")
-          {
-           document.getElementById("uname").innerHTML = "User name is empty";
-           flag = 0; 
-        }
-          else if( name.value.length <4 )
-        {
-            document.getElementById("uname").innerHTML = "User name should be more than 4 digits";
-        flag = 0;
-        }
-        else{
-            document.getElementById("uname").innerHTML = " ";
-        flag = 1;
-        }
-        if(phone.value == "")
-        {
-            document.getElementById("pname").innerHTML = "Phone number Empty";
-        flag = 0;
-        }
-        else{
-            document.getElementById("pname").innerHTMl = " ";
-       flag = 1;
-        }
-        if (flag)
-        {
-            return true;
-        }
-        else{
-            return false;
-        }
-        }
-
-    </script>
+    
     <footer></footer>
   </body>
 </html>
