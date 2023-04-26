@@ -1,3 +1,266 @@
+<<<<<<< HEAD:css/learn.css
+:root{
+    --navbar: rgba(0, 0, 0, 0);
+    --background:rgb(212, 212, 212);
+    --white:white;
+    --black:black;
+    --button-color:#adff2f;
+    --radiusborder: 20px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background);
+    font-family: "Poppins";
+}
+.one {
+    position:relative; 
+    width: 100%; 
+    height:200px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    background-image: url("/Images/learn-images/bottles.avif"); 
+    height:100vh; 
+    background-size: cover; 
+    background-position: center; 
+
+}
+
+.hello{
+    width:90%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align: center;
+    margin:20px auto;
+
+}
+.hello{
+    font-size:50px;
+    color: #026405;
+    margin-top: 350px;
+    margin-bottom:100px;
+    position:relative;
+
+}
+.hello h1::after{
+    content:"";
+    position :absolute;
+    width:1000px;
+    height:4px;
+    display:block;
+    margin:0auto;
+    background-color:#4caf50;
+}
+.hello p{
+    font-size: 25px;
+    color:#0f0000;
+    margin-top: 20px;
+    margin-bottom:35px;
+}
+.container{
+    width: auto;
+}
+.about{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.about-image{
+    flex:1;
+    margin-right:40px;
+    overflow:hidden;
+}
+.about-image img{
+    max-width:100%;
+    height:auto;
+    display:block;
+    transition:0.5s ease;
+}
+.about-image:hover img{
+    transform:scale(1.2);
+}
+.about-content{
+    flex:1;
+
+}
+.about-content h2{
+    font-size:35px;
+    margin-bottom:15px;
+    color:#01532c;
+}
+.about-content p{
+    font-size:25px;
+    line-height:1.5;
+    color:#350144;
+
+}
+.about-photo img{
+    width:600px;
+    height:600px;
+    
+}
+.about-segregate h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #577e6b;
+}
+.about-segregate p{
+    font-size: 25px;
+    line-height: 1.5;
+    color: #0e1c0d;
+}
+.about-segregate list{
+    font-size: 25px;
+    line-height: 1.5;
+    color: #0e1c0d;
+}
+.about-segregate .read-more{
+    display:inline-block;
+    padding:10px 60px;
+    background-color:#4caf50;
+    color:#fff;
+    font-size:19px;
+    text-decoration:none;
+    border-radius:25px;
+    margin-top:15px;
+    transition:0.3s ease;
+}
+
+
+.about-content .read-more::hover{
+    background-color:#3e8e41;
+}
+@media screen and(max-width:768px){
+     .heading{
+        padding:0px 20px;
+     }
+     .heading h1{
+        font-size:36px;
+
+     }
+     .heading p{
+        font-size:17px;
+        margin-bottom:0px;
+     }
+     .container{
+        padding:0px;
+
+     }
+     .about{
+        padding:20px;
+        flex-direction:column;
+     }
+     .about-image{
+        margin-right:0px;
+        margin-bottom:20px;
+     }
+     .about-content p{
+        padding:0px;
+        font-size:16px;
+     }
+     .about-segregate .read-more{
+        font-size:16px;
+     }
+     .about-photo{
+        margin-right:0px;
+        margin-bottom:20px;
+     }
+}
+header{
+    height: 10vh;
+    width: 100vw;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: var(--navbar);
+    
+}
+.nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    height: 95%;
+    width: 40%;
+  display: flex;
+  justify-content:start ;
+  align-items: center;
+}
+.logo img{
+    height:75%;
+    width:11%;
+  margin-left: 2rem;
+  margin-right: 0.3rem;
+} 
+.bar{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-btn{
+    height:2rem;
+    width: 7rem;
+    font-size: 15px;
+    font-family: "Poppins";
+    outline: none;
+    background-color:var(--button-color);
+    text-decoration: none;
+    border: none;
+    border-radius: var(--radiusborder);
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.navbar-btn:hover{
+    background: var(--white);
+}
+.bar a{
+        text-decoration: none;
+            color:var(--black);
+}
+.login-btn
+{ 
+    height:2rem;
+    width: 10rem;
+    font-size: 15px;
+    font-family: "Poppins";
+    outline: none;
+    background-color:var(--button-color);
+    text-decoration: none;
+    border: none;
+    border-radius: var(--radiusborder);
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+} 
+.login-btn:hover{
+    background: var(--white);
+    transform: scale(1.15);
+}
+.login{
+    height: 100%;
+    width: 15%;
+    display: grid;
+    place-items: center;
+}
+.login a{
+    text-decoration: none;
+        color: var(--white);
+
+}
+=======
 :root{
     --navbar: rgba(0, 0, 0, 0);
     --background:rgb(212, 212, 212);
@@ -319,3 +582,4 @@ footer img:hover{
 
 
 
+>>>>>>> master:learn.css

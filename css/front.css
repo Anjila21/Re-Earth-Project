@@ -11,6 +11,9 @@
     padding:0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: var(--background);
     font-family: "Poppins";
@@ -22,7 +25,7 @@ body{
     display: flex; 
     flex-direction: column; 
     justify-content: flex-start; 
-    background: url(cover.jpg); 
+    background-image: url("/Images/mainpage-images/cover.jpg"); 
     height:100vh; 
     background-size: cover; 
     background-position: center; 
@@ -256,36 +259,58 @@ header{
     box-shadow: 0px 2px 8px black;
      transition: 0.5s;
     cursor: pointer;
+    text-shadow: 2px 2px 2px var(--black);
+    color:white;
+    background-size: cover; 
+    display: grid;
+   place-items: center;
 }
 .compost{
-    background-image: url("Images/manure.webp"); 
-   background-size: cover; 
-   display: grid;
-   place-items: center;
-color:white;
-   
+    background-image: url("/Images/mainpage-images/manure.jpg"); 
 }
 .shredding{
- background-image: url("Images/shredding.jpg"); 
-    background-size: cover;
-   display: grid;
-   place-items: center;
-   color:black;
-
+ background-image: url("/Images/mainpage-images/shredding.jpeg"); 
 }
 .ewaste{
-    background-image: url("Images/ewaste.cms"); 
-    background-size: cover;
-    display: grid;
-    place-items: center;
-
+    background-image: url("/Images/mainpage-images/ewaste.jpg"); 
 }
+.box {
+    height: 100%;
+    width: 100%;
+transition: 0.3s;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  }  
+.box:hover{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(4px);
+  }
+
 .compost:hover, 
 .shredding:hover ,
 .ewaste:hover
 {
 transform:scale(1.15);
 }
+.compost p, 
+.shredding p ,
+.ewaste p
+{
+width: 80%;
+text-align: center;
+}
+.compost h4, 
+.shredding h4,
+.ewaste h4
+{
+font-size: 44px;
+font-weight: 400;
+}
+
 .shop{ 
     margin-bottom: 5rem;
     position: relative;
@@ -306,7 +331,7 @@ transform:scale(1.15);
 .becomepartner{
     width: 100vw;
     height: 60vh;
-    background-image: url("Images/theark.jpg");
+    background-image: url("/Images/mainpage-images/theark.jpg");
     background-size: cover;
     display: grid;
     place-items: center;
@@ -479,10 +504,9 @@ footer{
 }
 .three span{
     font-size: 15px;
-    color: rgb(153, 153, 153);
 }
 .theend{
     height: 40%;
-    background-image: url("/Images/footer-banner.png");
+    background-image: url("/Images/mainpage-images/footer-banner.png");
     background-size: cover;
 }
