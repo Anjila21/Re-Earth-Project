@@ -196,7 +196,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("Images/Desktop\ -\ 5.jpg");
+    background-image: url("");
     background-size: cover;
 }
 .team p{
@@ -207,7 +207,7 @@ header{
     place-items: center;
     height: 90%;
     width: 70%;
-    background-image: url("Images/Desktop\ -\ 4.jpg");
+    /**background-image: url("images/about\ us\ side\ image.png"); **/
     background-size: cover;
 }
 .teampic img{
@@ -258,30 +258,31 @@ header{
     cursor: pointer;
 }
 .compost{
-   /** background-image: url("Images/ediblespoon.jpg"); 
-   background-size: cover; **/
-   background-color: rgb(132, 224, 132);
+    background-image: url("Images/manure.webp"); 
+   background-size: cover; 
    display: grid;
    place-items: center;
+color:white;
    
 }
 .shredding{
-   /** background-image: url("Images/ediblespoon.jpg"); 
-    background-size: cover; **/
-   background-color: rgb(166, 158, 202);
+ background-image: url("Images/shredding.jpg"); 
+    background-size: cover;
    display: grid;
    place-items: center;
+   color:black;
 
 }
 .ewaste{
-    background-color: rgb(181, 194, 133);
+    background-image: url("Images/ewaste.cms"); 
+    background-size: cover;
     display: grid;
     place-items: center;
 
 }
-.ediblespoon:hover, 
-.newsletter:hover ,
-.awareness:hover
+.compost:hover, 
+.shredding:hover ,
+.ewaste:hover
 {
 transform:scale(1.15);
 }
