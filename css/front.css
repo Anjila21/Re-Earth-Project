@@ -3,8 +3,8 @@
     --background:rgb(212, 212, 212);
     --white:white;
     --black:black;
-    --button-color:#adff2f;
-    --radiusborder: 20px;
+    --button-color:rgb(42, 204, 42);
+    --radiusborder: 15px;
 }
 *{
     margin:0;
@@ -129,7 +129,7 @@ header{
     color: var(--white);
 }
 .bar{
-    width: 45%;
+    width: 60%;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -257,7 +257,7 @@ header{
     border: 5px solid var(--button-color);
     border-radius: var(--radiusborder);
     box-shadow: 0px 2px 8px black;
-     transition: 0.5s;
+    transition: 0.5s;
     cursor: pointer;
     text-shadow: 2px 2px 2px var(--black);
     color:white;
@@ -277,17 +277,17 @@ header{
 .box {
     height: 100%;
     width: 100%;
-transition: 0.3s;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }  
 .box:hover{
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(14px);
   }
 
 .compost:hover, 
@@ -323,7 +323,7 @@ font-weight: 400;
     font-weight: 400; 
     border-radius: var(--radiusborder); 
     transition: 0.3s; 
-    cursor: pointer;
+    cursor:pointer;
 } 
 .shop:hover{
   transform: scale(1.1);
@@ -442,8 +442,6 @@ footer{
     font-size: 25px; 
     transition: 0.3s; 
 } 
-
-
 
 .media-icon h1{ 
     font-weight: 500;
