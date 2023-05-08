@@ -140,11 +140,16 @@ body{
 
 }
 .hello{
-    font-family:"Poppins";
-    font-size:50px;
-    color: #026405;
-    position:relative;
-    
+    font-family: "Poppins";
+    font-size: 50px;
+    color:rgb(111, 219, 61);
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
 }
 .hello h1::after{
     content:"";
