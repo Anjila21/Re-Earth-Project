@@ -124,7 +124,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(bottles.avif);
+    background: url("bottles.avif);
     height: 100vh;
     background-size: cover;
     background-position: center;
