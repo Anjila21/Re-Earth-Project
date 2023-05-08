@@ -128,7 +128,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(bottles.avif);
+    background: url(Images/learn-images/bottles.avif);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -211,7 +211,7 @@ body {
 
 .hello1 p {
     font-family: "Poppins";
-    font-size: 25px;
+    font-size: 20px;
     color: whitesmoke;
 
     line-height: 1.5;
@@ -273,7 +273,7 @@ body {
 
 .hello2 p {
     font-family: "Poppins";
-    font-size: 25px;
+    font-size: 20px;
     color: whitesmoke;
     line-height: 1.5;
 }
@@ -313,7 +313,7 @@ body {
 
 .segregation p {
     font-family: "Poppins";
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
     color: #0e1c0d;
     width: 90%;
@@ -327,7 +327,7 @@ body {
 
 .segregation list {
     font-family: "Poppins";
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
     color: #0e1c0d;
     width: 90%;
@@ -342,7 +342,7 @@ body {
 .four {
     width: 100vw;
     height: 60vh;
-    background-image: url("nature.jpg");
+    background-image: url(Images/learn-images/nature.jpg);
     background-size: cover;
     display: grid;
     place-items: center;
@@ -359,7 +359,7 @@ body {
 
 .last_para {
     font-family: "Poppins";
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
     color: white;
     width: 90%;
@@ -383,7 +383,7 @@ footer{
     background-color: #4caf50;
     color: #fff;
     font-family: "Poppins";
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     border-radius: 25px;
     margin-top: 5px;
