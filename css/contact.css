@@ -3,9 +3,9 @@
     --background:rgb(212, 212, 212);
     --white:white;
     --black:black;
-    --button-color:#adff2f;
+    --button-color:rgb(111, 219, 61);
     --radiusborder: 20px;
-    /* overflow: hidden; */
+    
 }
 *{
     margin:0;
@@ -15,6 +15,7 @@
 body{
     background-color: var(--background);
     font-family: "Poppins";
+    font-size: medium;
 }
 .contact2{
     height: 50vh;
@@ -36,6 +37,7 @@ li{
     height: 50%;
     width: 25vw;
     margin-right: 5rem;
+    
 }
 .callusIn{
     display: flex;
@@ -149,6 +151,7 @@ header{
 .navbar-btn{
     height:2rem;
     width: 7rem;
+    margin-left:1rem;
     font-size: 15px;
     font-family: "Poppins";
     outline: none;
