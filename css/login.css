@@ -3,7 +3,7 @@
     --background:rgb(212, 212, 212);
     --white:white;
     --black:black;
-    --button-color:#adff2f;
+    --button-color:rgb(111, 219, 61);
     --radiusborder: 20px;
     overflow-x: hidden;
 }
@@ -15,6 +15,7 @@
 body{
     background-color: var(--background);
     font-family: "Poppins";
+    font-size: medium;
     overflow: hidden;
 }
 .main{
@@ -175,7 +176,6 @@ header{
 }
 .login-btn
 { 
-    display: none;
     height:2rem;
     width: 10rem;
     font-size: 15px;
