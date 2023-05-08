@@ -3,8 +3,9 @@
     --background:rgb(212, 212, 212);
     --white:white;
     --black:black;
-    --button-color:rgb(42, 204, 42);
+    --button-color:#adff2f;
     --radiusborder: 20px;
+    overflow-x: hidden;
 }
 *{
     margin:0;

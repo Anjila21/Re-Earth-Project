@@ -3,8 +3,9 @@
     --background:rgb(212, 212, 212);
     --white:white;
     --black:black;
-    --button-color:rgb(42, 204, 42);
+    --button-color:#adff2f;
     --radiusborder: 20px;
+    overflow-x: hidden;
 }
 *{
     margin:0;
@@ -21,9 +22,9 @@ body{
 
 main {
 	width: 100%;
-	height: 900px;
+	height: 1300px;
 	padding-top: 50px;
-    background-image: url('/Images/price-images/rec-bg.jpg') center center no-repeat;
+    background-image:url(/Images/price-images/rec-bg.jpg);
     background-size: cover;
 }
 .open {
@@ -86,6 +87,7 @@ button {
     border: 1px solid #000;
     border-radius: 4px;
 	cursor: pointer;
+    background-color: rgb(71, 181, 71);
 }
 .cart {
 	display: none;
@@ -208,4 +210,11 @@ header{
     text-decoration: none;
         color: var(--white);
 
+}
+p{ 
+   overflow: hidden;
+    margin: 5px 0;
+    text-align: center!important;
+    font-weight: 700;
+    font-family: "Poppins";
 }

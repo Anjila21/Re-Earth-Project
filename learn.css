@@ -5,6 +5,7 @@
     --black: black;
     --button-color: #adff2f;
     --radiusborder: 20px;
+    overflow-x: hidden;
 }
 
 header {
@@ -124,7 +125,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url("bottles.avif);
+    background: url(bottles.avif);
     height: 100vh;
     background-size: cover;
     background-position: center;
